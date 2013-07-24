@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     canonicalifier (0.0.1)
-      rails (~> 4.0.0)
+      rails (~> 4.0.0rc1)
 
 GEM
   remote: https://rubygems.org/
