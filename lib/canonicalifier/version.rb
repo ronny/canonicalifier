@@ -1,0 +1,3 @@
+module Canonicalifier
+  VERSION = "0.0.1"
+end
