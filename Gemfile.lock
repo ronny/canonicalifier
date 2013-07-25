@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    canonicalifier (0.0.1)
+    canonicalifier (0.0.2)
       rails (~> 4.0.0rc1)
 
 GEM
