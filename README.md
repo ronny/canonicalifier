@@ -6,14 +6,11 @@ improve recognition of duplicated URLs. This allows you to represent
 information in several different places without harming your search engine
 rank.
 
-[1]: http://www.seomoz.org/blog/canonical-url-tag-the-most-important-advancement-in-seo-practices-since-sitemaps
-
 This gem is basically a repackaged version of the [canonical-url][2] gem to
-make it work with Rails 4. The name of the gem has also been changed to make
-it easier to refer to different versions in discussions and to make
-installation easier.
-
-[2]: https://github.com/mbleigh/canonical-url
+make it work with Rails 4. The original gem appears to be no longer actively
+maintained. The name of the gem has also been changed, mainly to make it
+easier to refer to different versions in discussions and to make installation
+easier.
 
 ## Installation
 
@@ -61,10 +58,19 @@ URL will remain the same.
 
 ## License
 
-The original [canonical-url][2] gem is copyright (c) 2009
+Parts of this gem that was taken from [canonical-url][2] are copyright © 2009
 [Michael Bleigh](http://www.mbleigh.com/) and
 [Intridea, Inc.](http://www.intridea.com/).
 
-Everything else (c) 2013 [Ronny Haryanto](https://github.com/ronny).
+Everything else, copyright © 2013 [Ronny Haryanto](https://github.com/ronny).
 
 See LICENSE for details.
+
+
+## See Also
+
+- [Specify Your Canonical][3] from Google Webmaster Central blog.
+
+[1]: http://www.seomoz.org/blog/canonical-url-tag-the-most-important-advancement-in-seo-practices-since-sitemaps
+[2]: https://github.com/mbleigh/canonical-url
+[3]: http://googlewebmastercentral.blogspot.com.au/2009/02/specify-your-canonical.html

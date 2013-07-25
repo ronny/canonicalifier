@@ -9,11 +9,12 @@ Gem::Specification.new do |s|
   s.version     = Canonicalifier::VERSION
   s.authors     = ["Ronny Haryanto"]
   s.email       = ["ronny@haryan.to"]
+  s.license     = 'MIT'
   s.homepage    = "https://github.com/ronny/canonicalifier"
   s.summary     = "Rails plugin to handle canonical urls"
   s.description = "Rails plugin to handle canonical urls"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["lib/**/*", "LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.0.0rc1"
