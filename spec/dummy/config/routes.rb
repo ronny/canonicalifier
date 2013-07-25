@@ -3,7 +3,9 @@ Dummy::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'test#index'
+  get 'hash/:id' => 'test#hash'
+  get 'static' => 'test#static'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -39,7 +41,7 @@ Dummy::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
