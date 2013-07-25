@@ -58,7 +58,7 @@ URL will remain the same.
 
 ## License
 
-Parts of this gem that was taken from [canonical-url][2] are copyright © 2009
+Parts of this gem that were taken from [canonical-url][2] are copyright © 2009
 [Michael Bleigh](http://www.mbleigh.com/) and
 [Intridea, Inc.](http://www.intridea.com/).
 
