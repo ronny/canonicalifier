@@ -1,3 +1,5 @@
+# This project is no longer maintained
+
 # Canonicalifier
 
 Canonicalifier is a Rails plugin that provides a simple way to utilize
